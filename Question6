@@ -1,0 +1,20 @@
+Q6.Describe the purpose and usage of the localStorage and sessionStorage APIs in web development. Give
+suitable examples for each.
+
+ANSWERS6:
+
+- **localStorage**: Stores data with no expiration time. The data persists even when the browser is closed and reopened. It is useful for storing long-term data like user preferences.
+  
+  Example:
+  ```javascript
+  localStorage.setItem('username', 'JohnDoe');
+  console.log(localStorage.getItem('username'));  // Outputs: JohnDoe
+  ```
+
+- **sessionStorage**: Stores data for the duration of the page session. The data is cleared when the page is closed.
+  
+  Example:
+  ```javascript
+  sessionStorage.setItem('sessionID', '12345');
+  console.log(sessionStorage.getItem('sessionID'));  // Outputs: 12345
+  

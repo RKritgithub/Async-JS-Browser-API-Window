@@ -1,0 +1,8 @@
+ANSWER3:
+
+The **same-origin policy** is a security measure implemented by browsers to restrict web pages from making AJAX requests to a domain different from the one that served the web page. This prevents malicious websites from accessing sensitive data from other websites.
+
+To work around this, you can:
+- Use **CORS (Cross-Origin Resource Sharing)** headers on the server to allow cross-origin requests.
+- Implement **JSONP** (though it's less secure) for data retrieval from other origins.
+- Utilize **proxy servers** to make requests on behalf of the client.

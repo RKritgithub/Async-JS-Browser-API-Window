@@ -1,0 +1,23 @@
+// Q1. Define XMLHttpRequest object, and How is it used in AJAX?
+
+// `XMLHttpRequest` is a JavaScript object used to send and receive data from a server asynchronously, without reloading the webpage. It is a key part of AJAX (Asynchronous JavaScript and XML).
+
+// Usage in AJAX:**
+//    var xhr = new XMLHttpRequest();
+//    ```
+//    xhr.open("GET", "data.json", true);
+//    ```
+// 3. **Handle the response**:
+//    ```javascript
+//    xhr.onreadystatechange = function() {
+//        if (xhr.readyState === 4 && xhr.status === 200) {
+//            console.log(xhr.responseText);
+//        }
+//    };
+//    ```
+// 4. **Send the request**:
+//    ```javascript
+//    xhr.send();
+   
+
+// XMLHttpRequest` is used in AJAX to send requests and handle responses asynchronously, enabling dynamic updates to web pages without full reloads.
